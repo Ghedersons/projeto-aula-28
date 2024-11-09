@@ -1,16 +1,14 @@
 {
-  "name": "aula",
+  "name": "music-artist-search",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto de busca de artistas e músicas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
-  }
+    "lite-server": "^2.5.4"
+  },
+  "author": "",
+  "license": "ISC"
 }

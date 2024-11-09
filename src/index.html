@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busca de Imagens</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Busca de Artistas e Músicas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <div class="search-container">
-        <h2>Busque uma Imagem</h2>
-        <input type="text" id="searchInput" placeholder="Digite o termo para busca">
+        <h1>Descubra Mais Sobre Seu Artista Favorito!</h1>
+        <input type="text" id="searchInput" placeholder="Digite o nome do artista">
         <button id="searchButton">Buscar</button>
-        <div class="image-result" id="imageResult"></div>
     </div>
 
-    <script src="index.js"></script>
-</body>
+    <div id="artistInfo" class="result-section">
+        <h2>Informações do Artista</h2>
+        <div id="artistDetails"></div>
+    </div>
 
+    <div id="topSongsGlobal" class="result-section">
+        <h2>Músicas Mais Tocadas Globalmente</h2>
+        <div id="globalTopSongs"></div>
+    </div>
+
+    <script src="index.js" defer></script> <!-- Adicionando defer -->
+</body>
 </html>
