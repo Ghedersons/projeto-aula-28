@@ -11,6 +11,8 @@ async function fetchArtistImageFromWikipedia(artistName) {
     const data = await response.json();
 
     // Verifica se existe a chave "thumbnail" e retorna a URL da imagem
+
+    
     if (data.thumbnail && data.thumbnail.source) {
         return data.thumbnail.source;
     } else {
